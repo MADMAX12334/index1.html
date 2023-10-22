@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>CSS FORMS</title>
+        <style>
+            *{
+              
+              background-color: rgb(93, 17, 63);
+            }
+            input {
+                width: 5%;
+                color: blueviolet;
+                background-color: rgb(41, 152, 52);   
+            }
+            
+            input[type=checkbox] {
+                color: aqua;
+                background-color: #040404;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                margin: 10px;
+                text-decoration: solid red;
+            }
+            h1:hover{
+                color: rgb(24, 106, 54);
+                background-color: blue;
+            }
+            button:hover{
+                color: chartreuse;
+                background-color: darkorchid;
+            }
+            h2:hover{
+                color: magenta;
+                background-color: #040404;
+            }
+           input[type:checkbox]:hover{
+                color: wheat;
+                background-color: rgb(56, 33, 119);
+            }
+            p{
+                font-weight: 1000;
+                color: rgb(187, 28, 28);
+            }
+            lastname {
+                color: chocolate;
+                background-color: crimson;
+            }
+        </style>
+    </head>
+    <body> <h1>SURVEY-FORMS:</h1><hr>
+        <p>FILL YOUR DETAILS GIVEN BELOW AND SUBMIT:</p><hr><hr>
+              <form>
+                <label for=" FIRST NAME">FRIST NAME:</label>
+                <input type="text" id="YOUR NAME" value=""><br><br>
+                <label for="LAST NAME">LAST NAME:</label>
+                <input type="text" id="LAST NAME" value=""><br><br>
+                <label for="text">YOUR E-MAIL:</label>
+                <input type="text" id="YOUR E-MAIL" value=""><br><br>
+                <label for="AGE">AGE:</label>
+                <input type="text" id="YOUR AGE" value=""><br><br>
+                <label for="male">MALE:</label>
+                <input type="radio" name="GENDER" id="male" value="male" checked><br><br>
+                <label for="female">FEMALE:</label>
+                <input type="radio" name="GENDER" id="female" value="female" checked>
+                <h2>NO.OF MEMBERS IN YOUR FAMILY</h2>
+                <label for="number" >FOUR MEMBERS:</label>
+                <input type="checkbox" name="FOUR MEMBERS" id="4" value="" checked><br><br>
+                <label for="number" >FIVE-MEMBERS:</label>
+                <input type="checkbox" name="FIE-MEMBERS" id="5" value="" checked><br><br>
+                <label for="number" >THREE-MEMBERS:</label>
+                <input type="checkbox" name="THREE-MEMBERS" id="3" value="" checked><br><br>
+                <label for="number" >SIX-MEMBERS:</label>
+                <input type="checkbox" name="SIX-MEMBERS" id="6" value="" checked><br><br>
+                <button>SUBMIT</button>
+              </form>
+    </body>
+</html>
